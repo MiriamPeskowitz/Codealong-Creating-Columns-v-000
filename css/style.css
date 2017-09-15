@@ -70,3 +70,33 @@ figcaption {
 #details a:active {
   color: red;
 }
+
+/* LAYOUT */
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background: #eee;
+}
+
+.col-1 { /* 1/3 space 100% - 2% for each colum, that's the space inbetween */
+  float: left;
+  width: 32%;
+}
+
+.col-2 {/* 2/3 space */
+  float: left;
+  width: 66%;
+}
+
+.col-3 {/* full column full width is */
+  backround: #ccc;
+  
+}
+
+[class*="col-"] /* attribut selector -- class with col- */{
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
