@@ -102,6 +102,7 @@ img, video, audio {
 .wrapper {
   width: 700px;
   margin: 0 auto;
+  background: #eee;
 
 }
 
