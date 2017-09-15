@@ -83,6 +83,20 @@ img, video, audio {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+/* social stack verticl and don't move */
+#social {
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 40px;
+  z-index: 1;
+}
+#social a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: yellow;
+}
 
 .wrapper {
   width: 960px;
